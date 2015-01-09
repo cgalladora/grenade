@@ -1,7 +1,7 @@
 # Grenade
 IP Fragmentation utility for pcaps
 
-## GENERAL USAGE:
+## General Usage
 
     grenade.py [options] <input PCAP> <output PCAP>
 
@@ -15,7 +15,7 @@ Example:
     output...... 16
 
 
-## FILTERING PACKETS:
+## Filtering Packets
 The arguments passed to `--src-ip` and `--dst-ip` can be in any of the following formats:
 - Plain IP address (i.e. `127.3.4.14`)
 - CIDR Netmask (i.e. `243.7.234.3/24`)
