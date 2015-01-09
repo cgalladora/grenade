@@ -22,5 +22,20 @@ The arguments passed to `--src-ip` and `--dst-ip` can be in any of the following
 - IP Glob Expression (i.e. `27.*.3.*`)
 - IP Range Expression (i.e. `225.43.2.1-19`)
 
+## Installation
+Simply do
+
+    $ ./setup.py install
+
+Or, if you already have the dependencies installed, 
+you can run the `grenade.py` script directly, without installation.
+
+    $ python /path/to/grenade.py [options] <arguments...>
+
+### Dependencies
+Dependencies are listed under `setup.py` in the `install_requires` setup parameter:
+- netaddr (version >= `0.7.12` recommended)
+- scapy (version >= `2.3.1` recommended)
+
 IPv6 is currently not supported
 
