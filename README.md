@@ -16,9 +16,11 @@ Example:
 
 
 ## FILTERING PACKETS:
-The arguments passed to --src-ip and --dst-ip can be in any of the following formats:
-- Plain IP address (i.e. 127.3.4.14)
-- CIDR Netmask (i.e. 243.7.234.3/24)
-- IP Glob Expression (i.e. 27.*.3.*)
-- IP Range Expression (i.e. 225.43.2.1-19)
+The arguments passed to `--src-ip` and `--dst-ip` can be in any of the following formats:
+- Plain IP address (i.e. `127.3.4.14`)
+- CIDR Netmask (i.e. `243.7.234.3/24`)
+- IP Glob Expression (i.e. `27.*.3.*`)
+- IP Range Expression (i.e. `225.43.2.1-19`)
+
+IPv6 is currently not supported
 
